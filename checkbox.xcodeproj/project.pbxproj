@@ -21,6 +21,9 @@
 		44DF2C2C189F6C3900974678 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44DF2C0E189F6C3900974678 /* UIKit.framework */; };
 		44DF2C34189F6C3900974678 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44DF2C32189F6C3900974678 /* InfoPlist.strings */; };
 		44DF2C36189F6C3900974678 /* checkboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DF2C35189F6C3900974678 /* checkboxTests.m */; };
+		44DF2C41189F6C4200974678 /* CheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DF2C40189F6C4100974678 /* CheckBox.m */; };
+		44DF2C44189F6CF900974678 /* girl1.png in Resources */ = {isa = PBXBuildFile; fileRef = 44DF2C42189F6CF900974678 /* girl1.png */; };
+		44DF2C45189F6CF900974678 /* girl0.png in Resources */ = {isa = PBXBuildFile; fileRef = 44DF2C43189F6CF900974678 /* girl0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		44DF2C31189F6C3900974678 /* checkboxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "checkboxTests-Info.plist"; sourceTree = "<group>"; };
 		44DF2C33189F6C3900974678 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44DF2C35189F6C3900974678 /* checkboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = checkboxTests.m; sourceTree = "<group>"; };
+		44DF2C3F189F6C4100974678 /* CheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBox.h; sourceTree = "<group>"; };
+		44DF2C40189F6C4100974678 /* CheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBox.m; sourceTree = "<group>"; };
+		44DF2C42189F6CF900974678 /* girl1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl1.png; sourceTree = "<group>"; };
+		44DF2C43189F6CF900974678 /* girl0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl0.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +124,10 @@
 				44DF2C1C189F6C3900974678 /* Main.storyboard */,
 				44DF2C1F189F6C3900974678 /* ViewController.h */,
 				44DF2C20189F6C3900974678 /* ViewController.m */,
+				44DF2C3F189F6C4100974678 /* CheckBox.h */,
+				44DF2C40189F6C4100974678 /* CheckBox.m */,
+				44DF2C42189F6CF900974678 /* girl1.png */,
+				44DF2C43189F6CF900974678 /* girl0.png */,
 				44DF2C22189F6C3900974678 /* Images.xcassets */,
 				44DF2C11189F6C3900974678 /* Supporting Files */,
 			);
@@ -230,7 +241,9 @@
 			files = (
 				44DF2C23189F6C3900974678 /* Images.xcassets in Resources */,
 				44DF2C15189F6C3900974678 /* InfoPlist.strings in Resources */,
+				44DF2C45189F6CF900974678 /* girl0.png in Resources */,
 				44DF2C1E189F6C3900974678 /* Main.storyboard in Resources */,
+				44DF2C44189F6CF900974678 /* girl1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DF2C41189F6C4200974678 /* CheckBox.m in Sources */,
 				44DF2C21189F6C3900974678 /* ViewController.m in Sources */,
 				44DF2C1B189F6C3900974678 /* AppDelegate.m in Sources */,
 				44DF2C17189F6C3900974678 /* main.m in Sources */,

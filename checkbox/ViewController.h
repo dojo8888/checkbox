@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CheckBox.h"
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet CheckBox *check;
 
 @end

@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property BOOL isChecked;
 @end
 
 @implementation ViewController
@@ -18,7 +18,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [_check setImage:[UIImage imageNamed:@"girl1"] forState:UIControlStateNormal];
+    [_check setImage:[UIImage imageNamed:@"girl0"] forState:UIControlStateSelected];
+    
 }
+
 
 - (void)didReceiveMemoryWarning
 {
