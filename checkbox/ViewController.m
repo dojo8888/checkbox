@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	// Do any additional setup after loading the view, typically from a nib.1111
     
     [_check setImage:[UIImage imageNamed:@"girl1"] forState:UIControlStateNormal];
     [_check setImage:[UIImage imageNamed:@"girl0"] forState:UIControlStateSelected];
